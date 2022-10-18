@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="imagens/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouroboros Company</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">    
+<!-- FONTS only -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kalam:wght@300&family=Shadows+Into+Light&family=Silkscreen&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+    <style>
+      
+      .form-control {
+        border: 1px solid #DC3545;
+        background-color: rgb(255, 255, 255, 0);
+      }
+      .form-control:focus {
+        border: 1px solid #DC3545;
+        background-color: rgb(255, 255, 255, 0);
+        color: rgba(255, 255, 255, 0.5);
+      }
+      input:focus::-webkit-input-placeholder {
+          color:rgba(255, 255, 255, 0.5);
+      }
+      input:hover::-webkit-input-placeholder {
+          color:rgba(255, 255, 255, 0.5);
+      }
+      .form-control::-webkit-input-placeholder {
+          color: #DC3545;
+      }
+     
+      .nav-tabs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+      }
+      .tab-content {
+        padding-top: 25px;
+        
+      }
+      .nav-item {
+        border-radius: 5px;
+      }
+      .nav-link {
+        color: #ffffff;
+        background-color: rgb(255, 255, 255);
+      }
+      .nav-link:hover {
+        color: #ffffff;
+      }
+      
+    
+
+    </style>
+  </head>
+<body>
+  
+    <div class="cabecalho0">
+    <header class="cabecalho">
+        <div class="cabecalho-1">
+              <a href="index1.html"><img class="cabecalho-img" src="imagens/images.png"></a>
+        </div>
+        
+        <div class="cabecalho2">          
+          <a href="#principal-conteudo"><button type="button" class="btn btn-outline-danger"><strong>Sobre</strong></button></a>
+          <span style="color: #dc3545; font-size: 25px;">|</span>
+          <a href="#principal2"><button type="button" class="btn btn-outline-danger"><strong>Jogos</strong></button></a>
+          <span style="color: #dc3545; font-size: 25px;">|</span>
+          <a href="#principal-conteudo1"><button type="button" class="btn btn-outline-danger "><strong>Como jogar</strong></button></a>
+          
+        </div>
+    </header>
+    </div>
+  
+   
+    <main class="principal">
+        <div class="principal-txt">
+            <div class="principal-txt-space">
+            </div>
+            
+            <div class="principal-txt2">
+                <h1 class="principal-txt-h1">Ouroboros</h1>
+                <div class="line"></div>
+                <p class="principal-txt-p">frase emocionante (em latim pra dar impacto)</p>
+            </div>
+
+            <div>
+            <a class="principal-scroll" href="#principal-conteudo">&darr;</a>
+            </div>
+          
+        </div>
+        
+        
+    </main>
+
+        <div id="principal-conteudo">
+            <div class="principal-conteudo-texto">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Enigma de Ouroboros</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Perguntas e Respostas</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Sobre</button>
+              </ul>
+              
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                  <h1>
+                    Enigma de Ouroboros
+                  </h1>
+                  <p class="texto-htp">
+                    01000010 01100101 01101101 00100000 01110110 01101001 01101110 01100100 01101111 <br>
+                    O Enigma de Ouroboros trata-se de diversos desafios, aonde será necessário interpretar, decodificar e achar mensagens 
+                    <span style="color: #dc3545;">(escondidas >:) ou não)</span> 
+                    para avançar para a próxima fase
+                  </p>
+                  <a href="#principal2"><button type="button" class="btn btn-danger btn-lg ">JOGAR</button>
+                  </a>
+                </div>
+
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam urna ligula
+                </div>
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam urna ligula
+                </div>
+
+              </div>
+            </div>
+
+            <div class="principal-conteudo-jogos">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imagens/background2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Novo battle royale anunciado</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagens/background2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Novo moba anunciado</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagens/background2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Novo gacha anunciado</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+        </div>
+
+        <div id="principal-conteudo1">
+          <div class="container">
+            <div  class="row">
+              <div class="col-sm-7">
+                <h1 class="titulo-htp">Enigma de Ouroboros</h1>
+                <p class="texto-htp">O enigma de Ouroboros é composto por diversas fases com desafios a serem resolvidos, 
+                  em ordem crescente de dificuldade. <br> A cada fase, para responder ao enigma, use a url para inserir sua resposta</p>
+                  <input class="pesquisa-teste" type="text" value="insira_sua_resposta_aqui.html">
+              </div>
+              <div class="col-sm-5">
+                <h1 class="subtitulo-htp">Regras:</h1>
+                <p class="texto-htp">caso esteja certa, uma nova guia abrirá e o enigma avançará para uma nova fase &#10004;&#65039;</p>
+                <p class="texto-htp">caso esteja errado, uma tela de erro aparecerá &#10060;</p>
+                <img style="width: 25vw;" src="imagens/tela_erro.jpg">
+              </div>
+            </div>
+          </div>
+          <div>
+            <a href="index.html#principal2"><button type="button" class="btn btn-danger btn1 btn-lg">COMEÇAR</button></a>
+          </div>
+        </div>
+
+        <div id="principal2"> 
+          <div class="principal-txt2-2">
+              <h1 class="principal-txt-h1-2">
+                  Escolha um dos jogos:
+              </h1> 
+              <div class="principal-banners">
+                  <a href="pastas/jogos/Ouroboros_Enigma/mainpage.html"><div class="principal-banner-img2">
+
+                  </div><img</a>
+  
+                  <a href="pastas/jogos/"><div class="principal-banner-img2">
+                  </div></a>
+              </div>
+          </div> 
+        </div>
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      
+  </body>
+</html>
